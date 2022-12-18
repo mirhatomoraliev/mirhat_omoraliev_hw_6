@@ -10,8 +10,8 @@ public class Skeleton extends Boss{
     }
 
     @Override
-    public String printInfo(int health, int damage, WeaponType weaponType) {
-        return super.printInfo(health, damage, weaponType) + " | Count of arrow:" + this.arrowCount;
+    public String printInfo() {
+        return super.printInfo() + " | Count of arrow:" + this.arrowCount;
     }
 
     //7. Создать класс Skeleton (Скелет), унаследовать от Босса.
